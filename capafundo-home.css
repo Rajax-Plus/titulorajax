@@ -10,27 +10,3 @@
   background-color:#f7f7f7;
   overflow-x: hidden;
 }
-.rajax-margemtopo-home {
- margin-top: 70px;
-}
-.menupc-rajax21-esquerdo {
- display:none;
-}
-.menupc-rajax21-direito {
- display:none;
-}
-.sec-jax-apre-p  {
- display:none;
-}
-.sec-jax-apre-cel-p {
- display:none;
-} 
-  
-#sidebar-wrapper {
-display: none;
-}
-@media only screen and (max-width: 800px) {  
-.rajax-margemtopo-home {
- margin-top: 0px;
-}  
-}  
