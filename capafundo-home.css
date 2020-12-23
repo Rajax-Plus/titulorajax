@@ -1,0 +1,36 @@
+.capaiframe-home-rajax21 {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  z-index: 101;
+  top: 0;
+  left: 0;
+  right:0;
+  bottom:0;
+  background-color:#f7f7f7;
+  overflow-x: hidden;
+}
+.rajax-margemtopo-home {
+ margin-top: 70px;
+}
+.menupc-rajax21-esquerdo {
+ display:none;
+}
+.menupc-rajax21-direito {
+ display:none;
+}
+.sec-jax-apre-p  {
+ display:none;
+}
+.sec-jax-apre-cel-p {
+ display:none;
+} 
+  
+#sidebar-wrapper {
+display: none;
+}
+@media only screen and (max-width: 800px) {  
+.rajax-margemtopo-home {
+ margin-top: 0px;
+}  
+}  
