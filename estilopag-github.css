@@ -37,12 +37,6 @@
   border-radius:12px;
   z-index:105;
 }
-
-  /* IMAGEM PARA DESTAQUE - 1 */
-.bgjax-titulo-1.visible:before {
-    background-image: url("");
-  } 
-
 .bgjax-titulo-box {
   position: absolute;
   width: 40%;
