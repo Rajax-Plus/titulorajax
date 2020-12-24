@@ -29,6 +29,9 @@
 .bgjax-titulo-1.visible img:before {
   width: 100%;
   height: 100%;
+  position:absolute;
+  top:0;
+  right:0;
   object-fit: cover;
   z-index:105;
 }
