@@ -7,13 +7,14 @@
 }  
 
 .bgjax-titulo-1 {
-  background-color: #000;
+  background-color: #f1f1f1;
   height: 580px;
   width: 100%;
   position:relative;
   border-radius:12px;
 }
 .bgjax-titulo-1.visible:before {
+  background-image: url("https://1.bp.blogspot.com/-kAE9DDum3PM/X-IoQPY5vBI/AAAAAAAAM-8/J_vfSO8rV8wJl1ZR4HZumzRtmVzN5SjBQCLcBGAsYHQ/s16000/Retro%2B2020%2B-%2Bfundo%2Btitulo.jpg");
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
