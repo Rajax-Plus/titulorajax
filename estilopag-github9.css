@@ -203,7 +203,7 @@
 .bgjax-titulo-box {
   width: 100%;
   max-width:450px;
-  padding: 0px 10px 0px 10px;
+  padding: 0px 20px 0px 10px;
   left: 0;
   right:0;
   margin-left:auto;
@@ -215,7 +215,7 @@
   width:70%;
 }
 .bgjax-titulo-box p {
-  margin-top: 15px;
+  margin-top: 5px;
   font-size: 16px;
 }
 .bgjax-titulo-box h6 {
@@ -248,7 +248,9 @@
 }    
 .aprejax-titulo {
   width: 50px;
-}  
+} 
+.aprejax-titulo:before {
+  margin: 0 0 -15% -15%;  
 }   
   
 @media screen and (min-width: 701px) {
@@ -395,6 +397,12 @@ div.bcd140526_post_feed.column a.thumbnail img {
   width:100%;
   max-width:450px;
 }
+ marg-pag-ultimas p{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: #444;
+} 
 .marg-pag-ajuste { 
   margin-left:-25px;
   margin-right:-25px;
