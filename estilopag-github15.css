@@ -253,7 +253,7 @@
   margin: 0 0 -12% -12%;  
 }   
   
-@media screen and (min-width: 701px) {
+
 .sidenav-jax21 {
   height: 100%;
   width: 0;
@@ -287,7 +287,7 @@
   right:100px;
   top:25px;
 }
-}
+
 @media screen and (max-width: 700px) {
   .sidenav-jax21 {
   width: 100%;
@@ -398,7 +398,7 @@ div.bcd140526_post_feed.column a.thumbnail img {
   max-width:450px;
 }
 .marg-pag-ajuste { 
-  margin-left:-25px;
-  margin-right:-25px;
+  margin-left:10px;
+  margin-right:10px;
 }  
 
