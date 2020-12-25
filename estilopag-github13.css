@@ -254,7 +254,7 @@
 }   
   
 @media screen and (min-width: 701px) {
-.sidenav-jax21 {
+.sidenav-jax21-pc {
   height: 100%;
   width: 0;
   position: fixed;
@@ -267,10 +267,10 @@
   transition: 0.3s;
   padding-top: 20px;
 }
-.sidenav-jax21 a {
+.sidenav-jax21-pc a {
     font-size: 18px;
   }
-.sidenav-jax21 p {
+.sidenav-jax21-pc p {
   padding: 8px 8px 30px 10px;
   text-decoration: none;
   font-family: 'Source Sans Pro', sans-serif;
@@ -281,30 +281,36 @@
   transition: 0.3s;
 }  
 
-.sidenav-jax21 .closebtn-jax21 {
+.sidenav-jax21-pc .closebtn-jax21 {
   position: absolute;
   font-size: 50px;
   right:100px;
   top:25px;
 }
+.sidenav-jax21-cel { 
+  display:none;
+}  
 }
 @media screen and (max-width: 700px) {
-  .sidenav-jax21 {
+  .sidenav-jax21-cel {
   width: 100%;
   position: relative;
   background-color: transparent;
 }
-  .sidenav-jax21 a {
+  .sidenav-jax21-cel a {
     font-size: 16px;
   }
-  .sidenav-jax21 p {
+  .sidenav-jax21-cel p {
   padding: 15px 8px 10px 10px;
   font-weight: 600;
   font-size: 18px;
 }  
-  .sidenav-jax21 .closebtn-jax21 {
+  .sidenav-jax21-cel .closebtn-jax21 {
   display:none;
 }
+.sidenav-jax21-pc { 
+  display:none;
+}    
 }
  
 .bcd140526_post_feed li.item {
@@ -398,6 +404,6 @@ div.bcd140526_post_feed.column a.thumbnail img {
   max-width:450px;
 }
 .marg-pag-ajuste { 
-  margin-left:-25px;
-  margin-right:-25px;
+  margin-left:-0px;
+  margin-right:-0px;
 }  
