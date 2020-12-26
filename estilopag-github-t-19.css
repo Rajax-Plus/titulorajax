@@ -318,8 +318,8 @@
 .bcd140526_post_feed li.item {
     display: block;
     clear: both;
-    margin: 10px 0 0 0;
-    padding: 10px 0 0 0;
+    margin: 15px 0 0 0;
+    padding: 15px 0 0 0;
     font-size:0px;
 }
 .bcd140526_post_feed ul {
@@ -340,6 +340,7 @@
     padding-top: 7px;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 600;
+    line-height: 1.2em;
 }
 
 .bcd140526_post_feed li.item div.meta {
