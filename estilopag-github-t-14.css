@@ -409,3 +409,9 @@ div.bcd140526_post_feed.column a.thumbnail img {
   margin-left:5px;
   margin-right:5px;
 }  
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
