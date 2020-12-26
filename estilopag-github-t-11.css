@@ -57,7 +57,7 @@
   border-radius: 0px;
 }
 .bgjax-titulo-box p {
-  margin-top: -18px;
+  margin-top: -16px;
   color: #fff;
   background: transparent;
   font-family: 'Source Sans Pro', sans-serif;
@@ -164,8 +164,8 @@
   right: 0;
   left: 0;
   bottom: 0;
-  height: 120%;
-  width: 120%;
+  height: 110%;
+  width: 110%;
   margin: 0 0 -10% -10%;
   opacity: 1;
   border-top: 4px solid #01377f;
