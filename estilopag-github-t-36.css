@@ -211,7 +211,7 @@
 .bgjax-titulo-box {
   width: 100%;
   max-width:450px;
-  padding: 0px 10px 0px 20px;
+  padding: 0px 20px 0px 10px;
   left: 0;
   right:0;
   margin-left:auto;
@@ -416,7 +416,7 @@ div.bcd140526_post_feed.column a.thumbnail img {
   right:0;
   margin-left:auto;
   margin-right:auto;
-  padding: 0px 20px 0px 20px ;
+  padding: 0px 20px 0px 10px ;
   width:100%;
   max-width:450px;
 }
