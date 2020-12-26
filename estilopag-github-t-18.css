@@ -354,6 +354,7 @@
     font-weight: 600;
     font-family: 'Source Sans Pro', sans-serif;
     z-index:130;
+    color:#777;
 }
 .bcd140526_post_feed li.item p.snippet {
     line-height: 1.2em;
@@ -415,7 +416,7 @@ a:link {
   color:#01377f;
 }
 a:hover {
-  color:#777;
+  color:#444;
   text-decoration: none;
 }
 a:visited {
