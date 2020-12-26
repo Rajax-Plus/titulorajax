@@ -13,7 +13,7 @@
   position:relative;
   border-radius:12px;
 }
-.bgjax-titulo-1.visible:before {
+.bgjax-titulo-1:before {
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -39,7 +39,7 @@
 }
 
   /* IMAGEM PARA DESTAQUE - 1 */
-.bgjax-titulo-1.visible:before {
+.bgjax-titulo-1:before {
     background-image: url("");
   } 
 
@@ -57,7 +57,7 @@
   border-radius: 0px;
 }
 .bgjax-titulo-box p {
-  margin-top: 20px;
+  margin-top: -10px;
   color: #fff;
   background: transparent;
   font-family: 'Source Sans Pro', sans-serif;
@@ -107,7 +107,7 @@
   font-weight: 600;
   font-size: 17px;
   display: inline-block;
-  padding: 6px 25px 6px 50px;
+  padding: 8px 25px 8px 50px;
   background: #fff;
   color: #444;
   cursor: pointer;
@@ -128,7 +128,7 @@
 }    
 .bgjax-titulo-button1 i{
   font-size: 26px;
-  margin-bottom: -5px;
+  margin-top: -2px;
   margin-left: -26px;
 }   
 .bgjax-titulo-button2 i {
@@ -164,8 +164,8 @@
   right: 0;
   left: 0;
   bottom: 0;
-  height: 120%;
-  width: 120%;
+  height: 110%;
+  width: 110%;
   margin: 0 0 -10% -10%;
   opacity: 1;
   border-top: 4px solid #01377f;
@@ -216,14 +216,14 @@
   right:0;
   margin-left:auto;
   margin-right:auto;
-  top:280px;
+  top:270px;
   text-align:center;
 }
 .bgjax-titulo-box img {
   width:70%;
 }
 .bgjax-titulo-box p {
-  margin-top: 15px;
+  margin-top: -15px;
   font-size: 16px;
 }
 .bgjax-titulo-box h6 {
@@ -256,7 +256,9 @@
 }    
 .aprejax-titulo {
   width: 50px;
-}  
+} 
+.aprejax-titulo:before {
+  margin: 0 0 -13% -13%;   
 }   
   
 @media screen and (min-width: 701px) {
@@ -404,6 +406,6 @@ div.bcd140526_post_feed.column a.thumbnail img {
   max-width:450px;
 }
 .marg-pag-ajuste { 
-  margin-left:-25px;
-  margin-right:-25px;
+  margin-left:10px;
+  margin-right:10px;
 }  
