@@ -411,7 +411,13 @@ div.bcd140526_post_feed.column a.thumbnail img {
 }  
 a:link {
   text-decoration: none;
+  color:#01377f;
+}
+a:hover {
+  color:#777;
+  text-decoration: underline;
 }
 a:visited {
+  color:#777;
   text-decoration: none;
 }
