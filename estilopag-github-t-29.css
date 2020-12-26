@@ -425,13 +425,10 @@ div.bcd140526_post_feed.column a.thumbnail img {
 }  
 a:link {
   text-decoration: none;
-  color:#01377f;
 }
 a:hover {
-  color:#444;
   text-decoration: none;
 }
 a:visited {
-  color:#01377f;
   text-decoration: none;
 }
