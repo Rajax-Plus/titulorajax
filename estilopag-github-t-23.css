@@ -295,6 +295,7 @@
   font-size: 50px;
   right:100px;
   top:25px;
+  font-weight: 800;
 }
 }
 @media screen and (max-width: 700px) {
@@ -309,7 +310,10 @@
   .sidenav-jax21 p {
   padding: 15px 8px 10px 10px;
   font-weight: 600;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 700;
   font-size: 18px;
+  color: #444;
 }  
   .sidenav-jax21 .closebtn-jax21 {
   display:none;
