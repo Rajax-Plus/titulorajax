@@ -57,7 +57,7 @@
   border-radius: 0px;
 }
 .bgjax-titulo-box p {
-  margin-top: 20px;
+  margin-top: 0px;
   color: #fff;
   background: transparent;
   font-family: 'Source Sans Pro', sans-serif;
@@ -223,7 +223,7 @@
   width:70%;
 }
 .bgjax-titulo-box p {
-  margin-top: 15px;
+  margin-top: 0px;
   font-size: 16px;
 }
 .bgjax-titulo-box h6 {
