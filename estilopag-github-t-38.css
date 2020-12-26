@@ -209,9 +209,9 @@
   bottom:0;
 }
 .bgjax-titulo-box {
-  width: 100%;
+  width: 96%;
   max-width:450px;
-  padding: 0px 50px 0px 10px;
+  padding: 0px 10px 0px 10px;
   left: 0;
   right:0;
   margin-left:auto;
@@ -416,8 +416,8 @@ div.bcd140526_post_feed.column a.thumbnail img {
   right:0;
   margin-left:auto;
   margin-right:auto;
-  padding: 0px 50px 0px 10px ;
-  width:100%;
+  padding: 0px 10px 0px 10px ;
+  width:96%;
   max-width:450px;
 }
 .marg-pag-ajuste { 
