@@ -256,7 +256,9 @@
 }    
 .aprejax-titulo {
   width: 50px;
-}  
+}
+.aprejax-titulo:before {
+  margin: 0 0 -13% -13%;  
 }   
   
 @media screen and (min-width: 701px) {
