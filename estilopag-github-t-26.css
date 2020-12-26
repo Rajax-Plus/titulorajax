@@ -280,7 +280,7 @@
     line-height: 120%;
   }
 .sidenav-jax21 p {
-  padding: 10px 10px 20px 10px;
+  padding: 10px 10px 20px 6px;
   text-decoration: none;
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 700;
@@ -292,7 +292,7 @@
 
 .sidenav-jax21 .closebtn-jax21 {
   position: absolute;
-  font-size: 50px;
+  font-size: 60px;
   right:100px;
   top:25px;
   font-weight: 800;
@@ -308,7 +308,7 @@
     font-size: 16px;
   }
   .sidenav-jax21 p {
-  padding: 10px;
+  padding: 10px 10px 10px 6px;
   font-weight: 600;
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 700;
