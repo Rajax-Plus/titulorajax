@@ -61,9 +61,7 @@ margin: 2.5em -1em 2.5em -1em;
   color: #555;
 } 
 .post-body a{
-  font-weight: 800;
-  color: #5990d9;
-  border-bottom: 1px dotted #5990d9;
+  color: #0061c7;
 }      
 @media only screen and (max-width: 1000px) {     
 #main-wrapper { 
