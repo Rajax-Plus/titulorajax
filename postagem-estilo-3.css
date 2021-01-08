@@ -20,17 +20,14 @@ background-color: #f1f1f1;
 max-width:720px;
 margin-top:-100px;
 position:absolute;
-
 border-radius: 12px;
 z-index:4;
 }  
-  
 .post-body {
 background: #fff;
 color: #444;
 padding: 20px 50px;
-}     
-         
+}          
 .post-header {
 background: #fff;
 color: #444;
@@ -46,19 +43,17 @@ padding: 15px 10px 25px 10px;
 background: #fff;
 color: #444;
 }
-
 .post hentry {
 background: #fff;
 } 
 .post-body img{
 transform: scale(1.18);
-}    
-  
+}     
 .post-body p{
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 500;
-  font-size: 13px;
-  color: #222;
+  font-size: 14px;
+  color: #444;
 }    
 .post-body b{
   font-weight: 800;
@@ -90,7 +85,3 @@ margin-top:-130px;
 padding: 0px 25px 0px 25px;
 }  
   }
-@media only screen and (max-width: 600px) {     
-.post-body img{
-transform: scale(1.175);
-}  
