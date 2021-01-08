@@ -46,7 +46,7 @@ color: #444;
 .post hentry {
 background: #fff;
 } 
-.post-body img:nth-child(1) {
+.post-body img:first-child {
 transform: scale(1.175);
   border-radius: 0px;
 }     
