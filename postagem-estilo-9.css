@@ -31,7 +31,7 @@ padding: 20px 50px;
 .post-header {
 background: #fff;
 color: #444;
-padding: 15px 20px 30px 20px;  
+padding: 15px 20px 0px 20px;  
 }
 .post-header h1 {
   color: #555;
@@ -48,7 +48,7 @@ background: #fff;
 } 
 .post-body img{
 transform: scale(1.185);
-margin: 1em 0em 2em 0em;
+margin: 2em -1em 2em -1em;
 }     
 .post-body p{
   font-family: 'Source Sans Pro', sans-serif;
