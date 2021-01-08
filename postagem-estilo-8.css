@@ -46,9 +46,9 @@ color: #444;
 .post hentry {
 background: #fff;
 } 
-.post-body:first-child img{
-transform: scale(1.175);
-  border-radius: 0px;
+.post-body img{
+transform: scale(1.185);
+margin: 1em 0em 2em 0em;
 }     
 .post-body p{
   font-family: 'Source Sans Pro', sans-serif;
