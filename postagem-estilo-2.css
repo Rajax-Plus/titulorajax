@@ -57,8 +57,8 @@ transform: scale(1.18);
 .post-body p{
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 500;
-  font-size: 30px;
-  color: #444;
+  font-size: 13px;
+  color: #222;
 }    
 .post-body b{
   font-weight: 800;
@@ -67,7 +67,7 @@ transform: scale(1.18);
 .post-body a{
   font-weight: 800;
   color: #5990d9;
-  border-bottom: 2px dotted #5990d9;
+  border-bottom: 1px dotted #5990d9;
 }      
 @media only screen and (max-width: 1000px) {     
 #main-wrapper { 
@@ -92,5 +92,5 @@ padding: 0px 25px 0px 25px;
   }
 @media only screen and (max-width: 600px) {     
 .post-body img{
-transform: scale(1.17);
+transform: scale(1.175);
 }  
