@@ -166,7 +166,7 @@
   bottom: 0;
   height: 110%;
   width: 110%;
-  margin: 0 0 -5% -5%;
+  margin: 0 0 -9% -9%;
   opacity: 1;
   border-top: 3px solid #01377f;
   border-right: 3px solid #0061c7;
@@ -258,7 +258,7 @@
   width: 50px;
 }
 .aprejax-titulo:before {
-  margin: 0 0 -10% -10%;  
+  margin: 0 0 -10.5% -10.5%;  
 }   
 }  
 @media screen and (min-width: 701px) {
@@ -421,7 +421,7 @@ div.bcd140526_post_feed.column a.thumbnail img {
   max-width:450px;
 }
 .marg-pag-ajuste { 
-  margin-top:20px;
+  margin-top:30px;
 }  
 a:link {
   text-decoration: none;
