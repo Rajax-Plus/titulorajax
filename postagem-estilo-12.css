@@ -82,5 +82,8 @@ margin-top:-130px;
 }  
 .post-body {
 padding: 0px 25px 0px 25px;
-}  
+} 
+.post-header {
+padding: 5px 20px 0px 20px;  
+}   
   }
