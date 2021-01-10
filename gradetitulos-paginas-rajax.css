@@ -1,0 +1,75 @@
+/* GRADE TÍTULOS PARA PÁGINAS - RAJAX  */  
+.ijax-tit-0, .ijax-tit-1, .ijax-tit-2, .ijax-tit-3, .ijax-tit-4, .ijax-tit-5, .ijax-tit-6, .ijax-tit-7, .ijax-tit-8, .ijax-tit-9, .ijax-tit-10, .ijax-tit-11, .ijax-tit-12, .ijax-tit-13, .ijax-tit-14, .ijax-tit-15, .ijax-tit-16, .ijax-tit-17, .ijax-tit-18, .ijax-tit-19, .ijax-tit-20, .ijax-tit-21, .ijax-tit-22, .ijax-tit-23, .ijax-tit-24, .ijax-tit-25, .ijax-tit-26, .ijax-tit-27, .ijax-tit-28, .ijax-tit-29, .ijax-tit-30, .ijax-tit-31, .ijax-tit-32, .ijax-tit-33, .ijax-tit-34, .ijax-tit-35, .ijax-tit-36, .ijax-tit-37, .ijax-tit-38, .ijax-tit-39, .ijax-tit-40, .ijax-tit-41, .ijax-tit-42, .ijax-tit-43, .ijax-tit-44, .ijax-tit-45, .ijax-tit-46, .ijax-tit-47, .ijax-tit-48, .ijax-tit-49, .ijax-tit-50  {
+  width: 100%;
+  height: 0;
+  padding-top: 56.25%;
+  border-radius: 12px;
+  background-color: #fff;
+  z-index: 102;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0px 2px 5px rgba(10, 10, 10, 0.3);
+  position:relative;
+}
+/* GRADE TÍTULOS - SEÇÃO */ 
+.sec-jax-tit-t {
+  position:relative;
+  width: 100%;
+  max-width:900px;
+  margin-left:auto;
+  margin-right:auto;
+  padding-left:10px;
+  padding-right:10px;
+  display: inline-block;
+  overflow: hidden; 
+  content: "";
+  clear: both;
+  display: table;
+  padding-top: 10px;
+  padding-bottom:10px;
+  margin-top: 0px;
+  margin-bottom:0px;
+}  
+.sec-jax-tit-t a {
+  float:left;
+  width: 33.33%;
+  padding: 10px;
+} 
+.areaconteudo-pag-rajax {
+  margin-top:70px; 
+}  
+.areaconteudo-pag-rajax {
+  position:relative;
+  width: 100%;
+  max-width:900px;
+  margin-left:auto;
+  margin-right:auto;
+  padding-left:0px;
+  padding-right:0px; 
+  }
+  
+.titulo-pag-rajax p {
+  position:fixed;
+  top:0;
+  left:0;
+  z-index: 104;
+  width:100%;
+  background-color:#f0f0f0;
+  padding: 20px 10px 20px 50px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 800;
+  font-size: 36px; 
+  color: #777;
+  }
+  
+@media only screen and (max-width: 800px) {     
+.sec-jax-tit-t a {
+  width: 50%;
+  padding: 10px;
+} 
+.titulo-pag-rajax p {
+  padding: 20px 10px 20px 20px;
+  font-size: 30px; 
+  }  
+  }
