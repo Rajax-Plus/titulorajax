@@ -31,3 +31,6 @@
 .circular-menu .floating-btn {  
  display:none;
 }
+#sidebar-wrapper {
+display: none;
+}
