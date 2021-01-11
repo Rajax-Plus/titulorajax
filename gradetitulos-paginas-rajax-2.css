@@ -73,3 +73,27 @@
   font-size: 30px; 
   }  
   }
+  /* ATRASAR CARREGAMENTO DAS IMAGENS */
+.lazy-background {
+  z-index: 102;
+}
+  /* EFEITO ZOOM */
+.zoom-menos {
+  transition: .2s;
+}
+.zoom-menos:hover {
+  -ms-transform: scale(.98); /* IE 9 */
+  -webkit-transform: scale(.98); /* Safari 3-8 */
+  transform: scale(.98); 
+  opacity:.7;
+}  
+@media only screen and (max-width: 800px) {  
+.zoom-menos {
+  transition: transform .2s;
+}
+.zoom-menos:hover {
+  -ms-transform: scale(1); /* IE 9 */
+  -webkit-transform: scale(1); /* Safari 3-8 */
+  transform: scale(1); 
+} 
+  }  
