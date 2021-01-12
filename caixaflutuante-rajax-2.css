@@ -43,12 +43,13 @@
     position: fixed; 
     top: 0; 
     bottom:0;
-    margin-top: auto;
-    margin-bottom: auto;
-    left: 8vw;
+    left:0;
+    right:0;
+    margin:auto;
     z-index:300;
     width: 60px;
     height:140px;
+    transform: translateX(-520px);
   }   
 .botaofechar-titulo, .botaovoltar-titulo {
     position: relative; 
@@ -80,12 +81,13 @@
 .botoes-caixa-rajax { 
     position: fixed; 
     top: 20px; 
-    right: 0px;
+    right: 5px;
     left:auto;
     width: 100px;
     height:40px;
     margin-top: 0px;
     margin-bottom: 0px;
+    transform: none;
   }   
 .botaofechar-titulo, .botaovoltar-titulo {
     width: 30px;
