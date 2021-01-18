@@ -149,25 +149,3 @@ a:visited {
   color:#01377f;
   text-decoration: none;
 }
-.titulo-pag-rajax p {
-  position:fixed;
-  top:0;
-  left:0;
-  z-index: 104;
-  width:100%;
-  background-color:#f1f1f1;
-  padding: 20px 10px 20px 50px;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-weight: 800;
-  font-size: 36px; 
-  color: #777;
-  }
-.margemtopo-topicos {
- margin-top:30px; 
-}
-@media only screen and (max-width: 800px) {     
-.titulo-pag-rajax p {
-  padding: 20px 10px 20px 20px;
-  font-size: 30px; 
-  }  
-  }
