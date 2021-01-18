@@ -1,0 +1,233 @@
+.degrade-apresentacao-baixo {
+  height: 40%;
+  width: 100%;
+  z-index: 200;
+  position: fixed;
+  bottom: 0px;
+  left: 0;
+  right: 0;
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0, 97, 199, 0.9));
+  opacity:0.6;
+}
+.degrade-apresentacao-cima {
+  height: 15%;
+  width: 100%;
+  z-index: 200;
+  position: fixed;
+  top: 0px;
+  left: 0;
+  right: 0;
+  background-image: linear-gradient(to top, rgba(255, 255, 255, 0), rgba(0, 97, 199, 0.9));
+  opacity:0.5;
+}     
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  margin: auto;
+} 
+/* TEXTO DO SLIDE -- TÍTULO */
+.texto-apresentacao-titulo, .texto-apresentacao {
+  color: #fff;
+  text-shadow: 0px 1px 2px #111;
+  font-family: 'Source Sans Pro', sans-serif;
+  padding-left: 40px;
+  padding-right: 20px;
+  width: 100%;
+  max-width: 600px;
+  text-align: left;
+  position: fixed;
+  bottom: 50px;
+  z-index:400;
+  line-height: 130%;
+}
+.texto-apresentacao-titulo span, .texto-apresentacao span {
+  background: rgba(1, 55, 127, 0.7);
+}   
+/* TEXTO TÍTULO DO SLIDE */
+.texto-apresentacao-titulo {
+  font-size: 28px;
+  font-weight: 800;
+}  
+/* TEXTO DO SLIDE */
+.texto-apresentacao {
+  font-size: 23px;
+  font-weight: 600;
+}
+/* The dots/bullets/indicators */
+.dot {
+  height: 0px;
+  width: 0px;
+  margin: 0 0px;
+  background-color: #f1f1f1;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  opacity: 0;
+  z-index:300;
+}
+.container-dots {
+  z-index: 300;
+  position: fixed;
+  top: 0px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  max-width:0px;
+  padding-left: 0px;
+}
+.active {
+  background-color: #999;
+}  
+/* TELAS MENORES */
+@media only screen and (max-width: 600px) {
+/* TEXTO DO SLIDE -- TÍTULO */
+.texto-apresentacao-titulo, .texto-apresentacao {
+  bottom: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+} 
+/* TEXTO TÍTULO DO SLIDE */
+.texto-apresentacao-titulo {
+  font-size: 22px;
+}  
+/* TEXTO DO SLIDE */
+.texto-apresentacao {
+  font-size: 20px;
+}
+}
+@media only screen and (max-width: 400px) {  
+.texto-apresentacao {
+  font-size: 14px;
+  line-height: 150%;
+}   
+}  
+.bg-apresentacao-1, .bg-apresentacao-2, .bg-apresentacao-3, .bg-apresentacao-4, .bg-apresentacao-5, .bg-apresentacao-6, .bg-apresentacao-7, .bg-apresentacao-8   {
+  background-color:#f1f1f1;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right:0;
+  width: 100%;
+  height: 100%;
+  margin-left:auto;
+  margin-right:auto;
+  border-radius:12px;
+}
+.progressbar-fundo {
+  width: 380px;
+  position: fixed;
+  z-index: 300;
+  top: 10px;
+  left: 40px;
+  right: auto;
+  max-width: 440px;
+  height: 4px;
+  background: rgba(230, 230, 230, 0.4);
+}
+  
+@media only screen and (max-width: 600px) {
+.progressbar-fundo {
+  left: 20px;
+  right:auto;
+  width: 280px;
+}  
+}  
+
+/* ANIMAÇÕES PARA IMAGEM */
+ /* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 0.5s;
+  animation-name: fade;
+  animation-duration: 0.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4;} 
+  to {opacity: 1;}
+}
+
+@keyframes fade {
+  from {opacity: .4;} 
+  to {opacity: 1;}
+}
+  
+/* ANIMAÇÃO ZOOM OUT */
+.zoom-out-apresentacao {
+  -webkit-animation-name: zoom-out-apresentacao;
+  -webkit-animation-duration: 8s;
+  animation-name: zoom-out-apresentacao;
+  animation-duration: 8s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+
+@-webkit-keyframes zoom-out-apresentacao {
+  from {transform: scale(1);}
+  to {transform: scale(1.2);}
+}
+
+@keyframes zoom-out-apresentacao {
+  from {transform: scale(1);} 
+  to {transform: scale(1.2);}
+}    
+
+/* ANIMAÇÃO ZOOM IN */
+.zoom-in-apresentacao {
+  -webkit-animation-name: zoom-in-apresentacao;
+  -webkit-animation-duration: 8s;
+  animation-name: zoom-in-apresentacao;
+  animation-duration: 8s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+
+@-webkit-keyframes zoom-in-apresentacao {
+  from {transform: scale(1.2);}
+  to {transform: scale(1);}
+}
+
+@keyframes zoom-in-apresentacao {
+  from {transform: scale(1.2);} 
+  to {transform: scale(1);}
+}      
+   
+/* ANIMAÇÃO PARA DIREITA */  
+.img-p-direita {
+  -webkit-animation-name: img-p-direita;
+  -webkit-animation-duration: 8s;
+  animation-name: img-p-direita;
+  animation-duration: 8s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@-webkit-keyframes img-p-direita {
+  from {transform: scale(1);background-position: left;}
+  to {transform: scale(1.2);  background-position: right;}
+}
+@keyframes img-p-direita {
+  from {transform: scale(1);background-position: left;} 
+  to {transform: scale(1.2);background-position: right;}
+}    
+ 
+/* ANIMAÇÃO PARA ESQUERDA */  
+.img-p-esquerda {
+  -webkit-animation-name: img-p-esquerda;
+  -webkit-animation-duration: 8s;
+  animation-name: img-p-esquerda;
+  animation-duration: 8s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@-webkit-keyframes img-p-esquerda {
+  from {transform: scale(1);background-position: center;}
+  to {transform: scale(1.1);  background-position: left;}
+}
+@keyframes img-p-esquerda {
+  from {transform: scale(1);background-position: center;} 
+  to {transform: scale(1.1);background-position: left;}
+}     
