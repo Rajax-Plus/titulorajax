@@ -22,6 +22,7 @@
   float:left;
   width: 16.66%;
   padding: 10px 25px 10px 25px;
+  cursor:pointer;
 }  
 } 
 
@@ -50,6 +51,7 @@
   float:left;
   width: 16.66%;
   padding: 5px 45px 5px 45px;
+  cursor:pointer;
 }  
 } 
 @media only screen and (max-width: 1000px) { 
@@ -58,6 +60,7 @@
 }  
 .sec-jax-apre-cel a {
   padding: 20px 25px 20px 25px;
+  cursor:pointer;
 }       
 }  
 
@@ -78,6 +81,7 @@
   width:100px;
   display: inline-block;
   padding: 10px 15px 10px 15px;
+  cursor:pointer;
 }   
 }     
  
