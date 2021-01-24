@@ -44,7 +44,7 @@
 }   
 /* TEXTO TÍTULO DO SLIDE */
 .texto-apresentacao-titulo {
-  font-size: 28px;
+  font-size: 36px;
   font-weight: 800;
   bottom: 150px;
 }  
@@ -89,14 +89,17 @@
 } 
 /* TEXTO TÍTULO DO SLIDE */
 .texto-apresentacao-titulo {
-  font-size: 25px;
+  font-size: 30px;
 }  
 /* TEXTO DO SLIDE */
 .texto-apresentacao {
   font-size: 20px;
 }
 }
-@media only screen and (max-width: 400px) {  
+@media only screen and (max-width: 400px) { 
+.texto-apresentacao-titulo {
+  font-size: 22px;
+}     
 .texto-apresentacao {
   font-size: 14px;
   line-height: 150%;
