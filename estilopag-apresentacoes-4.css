@@ -84,7 +84,6 @@
 @media only screen and (max-width: 600px) {
 /* TEXTO DO SLIDE -- TÍTULO */
 .texto-apresentacao-titulo, .texto-apresentacao {
-  bottom: 50px;
   padding-left: 20px;
   padding-right: 20px;
 } 
