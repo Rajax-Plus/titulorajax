@@ -36,7 +36,6 @@
   max-width: 600px;
   text-align: left;
   position: fixed;
-  bottom: 50px;
   z-index:400;
   line-height: 130%;
 }
@@ -47,11 +46,13 @@
 .texto-apresentacao-titulo {
   font-size: 28px;
   font-weight: 800;
+  bottom: 100px;
 }  
 /* TEXTO DO SLIDE */
 .texto-apresentacao {
   font-size: 23px;
   font-weight: 600;
+  bottom: 50px;
 }
 /* The dots/bullets/indicators */
 .dot {
