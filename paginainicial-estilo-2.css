@@ -351,6 +351,7 @@ background: linear-gradient(90deg, rgba(0,97,199,1) 0%, rgba(1,55,127,1) 35%, rg
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  cursor:pointer;
 }  
 @media only screen and (min-width: 801px) {    
   /* GRADE - GALERIA PARA CANAIS */ 
@@ -493,3 +494,17 @@ overflow-x: hidden;
  margin-top: 0px;
 }  
 }  
+.rodape-rajax21 {
+  margin-top:10px;
+  padding:20px;
+  background: #e6e6e6;
+  width:100%;
+}
+.rodape-rajax21 p{
+ font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  color:#777;
+  text-align: center;
+  line-height: 120%;
+}
