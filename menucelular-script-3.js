@@ -27,10 +27,3 @@ function abrirContatoCel() {
 function fecharContatoCel() {
   if(document.getElementById('spoiler-rajax-contato-cel') .style.display=='none') {document.getElementById('spoiler-rajax-contato-cel') .style.display=''}else{document.getElementById('spoiler-rajax-contato-cel') .style.display='none'}
 }  
-
-$(".suave").click(function(event){
-    event.preventDefault();
-    $('html, body').animate({
-        scrollTop: $( $.attr(this, 'href') ).offset().top
-    }, 1500);
-});
