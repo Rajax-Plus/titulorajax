@@ -14,7 +14,6 @@ $(function (){
     });   
 }); 
 
-<script>
 function abrirExplore() {
   if(document.getElementById('spoiler-rajax-explore') .style.display=='none') {document.getElementById('spoiler-rajax-explore') .style.display=''}else{document.getElementById('spoiler-rajax-explore') .style.display='none'}
 }
