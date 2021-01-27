@@ -1,0 +1,103 @@
+.menupc-rajax21-esquerdo {
+  position:fixed;
+  z-index:6;
+  top:100px;
+  left:0;
+  right:0;
+  margin-left:auto;
+  margin-right:auto;
+  width:240px;
+  height:80vh;
+  max-height:500px;
+  background-color:#fff;
+  text-align:center;
+  border-radius:12px;
+  transform: translateX(-510px);
+  box-shadow: 0px 0px 15px rgba(160, 160, 160, 0.4);
+  object-fit: cover;
+}
+.menupc-rajax21-esquerdo-acesse{
+  position:absolute;
+  z-index:7;
+  top:10px;
+  left:10px;
+  background-color:#006cfc;
+  text-align:center;
+  border-radius:4px;
+  box-shadow: 0px 0px 5px rgba(160, 160, 160, 0.4);
+  padding: 2px 6px;
+}
+.menupc-rajax21-esquerdo-acesse p{
+  color: #fff;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+}
+.menupc-rajax21-esquerdo-acesse i{
+  color: #fff;
+  font-size: 12px;
+}  
+.menupc-rajax21-esquerdo img{
+  width:100%;
+  height:100%;
+  object-fit: cover;
+} 
+/* MENU LADO DIREITO */
+.menupc-rajax21-direito {
+  position:fixed;
+  z-index:6;
+  top:100px;
+  left:0;
+  right:0;
+  margin-left:auto;
+  margin-right:auto;
+  width:240px;
+  height:80vh;
+  max-height:1280px;
+  background-color:#fff;
+  padding: 0px;
+  border-radius:12px;
+  transform: translateX(510px);
+  overflow-y:scroll;
+  box-shadow: 0px 0px 15px rgba(160, 160, 160, 0.4);
+}
+    /* configurando scroll */
+.menupc-rajax21-direito::-webkit-scrollbar { 
+width:10px; 
+background-color:#f7f7f7;
+} 
+.sidenav56::-webkit-scrollbar-track { 
+background: rgba(0,0,0,0.1); 
+}    
+.menupc-rajax21-direito::-webkit-scrollbar-thumb { 
+ background-color:#ccc;
+ border-radius:5px; 
+}
+@media only screen and (max-width: 1250px) {     
+.menupc-rajax21-esquerdo {
+  display:none;
+}
+.menupc-rajax21-esquerdo img{
+  display:none;
+}  
+.menupc-rajax21-esquerdo a{
+  display:none;
+}  
+.menupc-rajax21-esquerdo a:hover{
+  display:none;
+}   
+.menupc-rajax21-esquerdo i{
+  display:none;
+} 
+.menupc-rajax21-direito {
+  display:none;
+}
+}     
+@media only screen and (max-width: 1250px) {     
+.menupc-rajax21-esquerdo {
+  transform: translateX(-350px);
+}
+.menupc-rajax21-direito {
+  display:none;
+}
+}      
