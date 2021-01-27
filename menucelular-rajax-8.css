@@ -50,8 +50,9 @@
   z-index: -2;
   background-color: #fff;
   background-image: url("https://wallpapercave.com/wp/wp5115158.jpg");
-  background-repeat: no-repeat;
   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   transition: all .3s ease;
 }
 .circular-menu.active:after {
