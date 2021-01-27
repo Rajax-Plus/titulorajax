@@ -1,0 +1,91 @@
+.container777 {
+  border: 2px solid #f1f1f1;
+  background-color: transparent;
+  border-radius: 10px;
+  padding: 0px;
+  margin: 0px;
+  color: #444;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  text-align: left;
+  line-height: 130%;
+}
+.container777::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.container777 img {
+  float: left;
+  margin-right: 20px;
+  border-radius: 10%;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+.container777 span {
+  font-size: 18px;
+  margin-right: 30px;
+}
+@media (max-width: 500px) {
+.container777 span {
+  font-size: 14px;
+  margin-right: 18px;
+}
+}
+.btn {
+  border: 2px solid #f1f1f1;
+  background-color: white;
+  color: black;
+  padding: 8px 20px;
+  font-size: 14px;
+  cursor: pointer;
+  float: right;
+  margin-top: -38px;
+  border-radius: 10px;
+}
+.success {
+  border-color: ##114d91;
+  color: #114d91;
+}
+.success:hover {
+  background-color: #114d91;;
+  color: white;
+}
+@media (max-width: 500px) {
+  .btn {
+      padding: 4px 10px;
+      font-size: 8px;
+      margin-top: -32px;
+  }
+}
+.chip {
+  display: inline-block;
+  padding: 0px 20px;
+  height: 50px;
+  font-size: 18px;
+  line-height: 15px;
+  font-weight: 600;
+  border-radius: 25px;
+  background-color: #fff;
+}
+.chip img {
+  float: left;
+  margin: 0 10px 0 -25px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.closebtn {
+  padding-left: 6px;
+  margin-top: -2.8rem;
+  color: #888;
+  font-weight: bold;
+  float: right;
+  font-size: 24px;
+  cursor: pointer;
+}
+.closebtn:hover {
+  color: #000;
+}
