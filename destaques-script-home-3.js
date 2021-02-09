@@ -22,6 +22,14 @@ $(function (){
     });   
 });  
 
+$(function (){
+    $('#titulo-destaque-4').click(function (){ 
+        if(!$('#iframe-destaque-4').length) {
+                $('#iframeHolder-destaque-4').html('<iframe id="iframe-destaque-4" class="caixaflutuante-rajaxplus" src="https://rajax-plus.github.io/anjonoturno.html"></iframe>');
+        }
+    });   
+}); 
+
 
 function abrirDestaque1() {
   if(document.getElementById('spoiler-destaque-1') .style.display=='none') {document.getElementById('spoiler-destaque-1') .style.display=''}else{document.getElementById('spoiler-destaque-1') .style.display='none'}
@@ -42,4 +50,11 @@ function abrirDestaque3() {
 }
 function fecharDestaque3() {
   if(document.getElementById('spoiler-destaque-3') .style.display=='none') {document.getElementById('spoiler-destaque-3') .style.display=''}else{document.getElementById('spoiler-destaque-3') .style.display='none'}
+}
+
+function abrirDestaque4() {
+  if(document.getElementById('spoiler-destaque-4') .style.display=='none') {document.getElementById('spoiler-destaque-4') .style.display=''}else{document.getElementById('spoiler-destaque-4') .style.display='none'}
+}
+function fecharDestaque4() {
+  if(document.getElementById('spoiler-destaque-4') .style.display=='none') {document.getElementById('spoiler-destaque-4') .style.display=''}else{document.getElementById('spoiler-destaque-4') .style.display='none'}
 }
