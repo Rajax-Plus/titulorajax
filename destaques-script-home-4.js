@@ -30,6 +30,14 @@ $(function (){
     });   
 }); 
 
+$(function (){
+    $('#titulo-destaque-5').click(function (){ 
+        if(!$('#iframe-destaque-5').length) {
+                $('#iframeHolder-destaque-5').html('<iframe id="iframe-destaque-5" class="caixaflutuante-rajaxplus" src="https://rajax-plus.github.io/rajaxevento.html"></iframe>');
+        }
+    });   
+});
+
 
 function abrirDestaque1() {
   if(document.getElementById('spoiler-destaque-1') .style.display=='none') {document.getElementById('spoiler-destaque-1') .style.display=''}else{document.getElementById('spoiler-destaque-1') .style.display='none'}
@@ -57,4 +65,11 @@ function abrirDestaque4() {
 }
 function fecharDestaque4() {
   if(document.getElementById('spoiler-destaque-4') .style.display=='none') {document.getElementById('spoiler-destaque-4') .style.display=''}else{document.getElementById('spoiler-destaque-4') .style.display='none'}
+}
+
+function abrirDestaque5() {
+  if(document.getElementById('spoiler-destaque-5') .style.display=='none') {document.getElementById('spoiler-destaque-5') .style.display=''}else{document.getElementById('spoiler-destaque-5') .style.display='none'}
+}
+function fecharDestaque5() {
+  if(document.getElementById('spoiler-destaque-5') .style.display=='none') {document.getElementById('spoiler-destaque-5') .style.display=''}else{document.getElementById('spoiler-destaque-5') .style.display='none'}
 }
