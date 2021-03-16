@@ -9,7 +9,7 @@ $(function (){
 $(function (){
     $('#titulo-destaque-2').click(function (){ 
         if(!$('#iframe-destaque-2').length) {
-                $('#iframeHolder-destaque-2').html('<iframe id="iframe-destaque-2" class="caixaflutuante-rajaxplus" src="https://rajax-plus.github.io/analisandoaconcorrencia.html"></iframe>');
+                $('#iframeHolder-destaque-2').html('<iframe id="iframe-destaque-2" class="caixaflutuante-rajaxplus" src="https://rajax-plus.github.io/totalmenteincorreto.html"></iframe>');
         }
     });   
 });  
