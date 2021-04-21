@@ -1,7 +1,7 @@
 $(function (){
     $('#titulo-destaque-1').click(function (){ 
         if(!$('#iframe-destaque-1').length) {
-                $('#iframeHolder-destaque-1').html('<iframe id="iframe-destaque-1" class="caixaflutuante-rajaxplus" src="https://rajax-plus.github.io/rajaxhits.html"></iframe>');
+                $('#iframeHolder-destaque-1').html('<iframe id="iframe-destaque-1" class="caixaflutuante-rajaxplus" src="https://rajax-plus.github.io/notepidoflores.html"></iframe>');
         }
     });   
 });  
