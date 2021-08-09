@@ -17,7 +17,7 @@ $(function (){
 $(function (){
     $('#titulo-destaque-3').click(function (){ 
         if(!$('#iframe-destaque-3').length) {
-                $('#iframeHolder-destaque-3').html('<iframe id="iframe-destaque-3" class="caixaflutuante-rajaxplus" src="https://rajax-plus.github.io/conversacomtheo.html"></iframe>');
+                $('#iframeHolder-destaque-3').html('<iframe id="iframe-destaque-3" class="caixaflutuante-rajaxplus" src="https://rajax-plus.github.io/rajaxhits.html"></iframe>');
         }
     });   
 });  
